@@ -1,0 +1,90 @@
+Container Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Contact Page Styling */
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-info h4 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.contact-form .form-label {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.contact-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Testimonials Page Styling */
+.testimonial-card {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: white;
+}
+
+.testimonial-card img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial-card .card-body {
+    text-align: center;
+}
+
+.testimonial-card .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #343a40;
+}
+
+.testimonial-card .card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.testimonial-card blockquote {
+    font-style: italic;
+    color: #495057;
+    margin-top: 10px;
+}
+
+blockquote p {
+    font-size: 1.1rem;
+}
+
+/* Responsive Design for Testimonials */
+@media (max-width: 767px) {
+    .testimonial-card {
+        margin-bottom: 20px;
+    }
+}
